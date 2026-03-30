@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.slider{
+    width: 100%;
+    min-height: 50vh;
+    aspect-ratio: 17/9;
+    background: black;
+   
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.slider-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+}
+
+h2{
+    font-size:3rem;
+    margin-bottom: 100px;
+}
+
+p{
+    font-size:1.5rem;
+    line-height: 1.5em;
+}
+
+.slider-content p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.dark{
+    background: black;
+    color: #FFF;
+    margin-top: 70px;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w32{
+    width:32%;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap20{
+    gap: 50px;
+    justify-content: center;
+}
+
+.skill{
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skill img{
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.skill h3{
+    color: black;
+    margin-top: 10px;
+}
+
+.etudes{
+    border: 2px dashed #000;
+    border-radius: 15px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+
+.realisation a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.realisation img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon{
+    display: block;
+    font-size: 35px !important;
+}
+
+.label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+.value{
+    display: block;
+    font-size: 1.2rem;
+}
+
+.contact{
+    border: 2px dashed #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
